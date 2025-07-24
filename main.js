@@ -10,7 +10,6 @@ allSections.forEach((sec, i) => {
 
   link.textContent = secName;
   link.href = `#${secId}`;
-  link.className = 'menu__link';
 
   li.appendChild(link);
   navList.appendChild(li);
